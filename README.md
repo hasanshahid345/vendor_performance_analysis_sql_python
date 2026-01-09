@@ -116,8 +116,6 @@ Identifying vendors with low inventory turnover allows the business to improve s
 
 Low-performing vendors achieve higher profit margins but struggle with lower sales volumes, indicating potential pricing inefficiencies, limited market reach, or underutilized demand.
 
-<img width="897" height="755" alt="image" src="https://github.com/user-attachments/assets/83073910-e81f-47c1-b177-667fd170c01c" />
-
 
 ### 🧪 6. Statistical Validation of Profit Margin Differences
 
