@@ -33,7 +33,8 @@ The business is efficient in purchasing, achieving up to **72% per-unit cost sav
 
 ## 🗂️ Data Structure
 
-![alt text](image-4.png)
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b0b959b0-9b23-4f6b-9983-0aa2552ff128" />
+
 
 ---
 
@@ -69,7 +70,8 @@ Stock turnover ranges from 0 to 274.5, indicating that while some products sell 
 
 ### 🧾 1. Brands for Promotional or Pricing Adjustments
 
-![alt text](image-3.png)
+<img width="975" height="625" alt="image" src="https://github.com/user-attachments/assets/1b06fe10-5557-4437-8bf3-1fa224f3ed4d" />
+
 
 Around 40 brands exhibit lower sales but higher profit margins, indicating strong profitability potential. These brands could benefit from targeted marketing, selective promotions, or price optimization strategies to increase sales volume without compromising overall profitability.
 
@@ -77,14 +79,16 @@ Around 40 brands exhibit lower sales but higher profit margins, indicating stron
 
 ### 📦 3. Impact of Bulk Purchasing on Cost Savings
 
-![alt text](image-2.png)
+<img width="666" height="220" alt="image" src="https://github.com/user-attachments/assets/8c3129be-e4d1-4659-b7e7-454a68d8b560" />
+
 
 Vendors purchasing in large quantities achieve up to 72% lower unit costs ($10.78 per unit compared to significantly higher unit costs for smaller orders).  
 Bulk pricing strategies incentivize larger order volumes, which increase total sales while preserving overall profitability.
 
 ### 🏷️ 4. Identifying Vendors with Low Inventory Turnover
 
-![alt text](image-1.png)
+<img width="777" height="570" alt="image" src="https://github.com/user-attachments/assets/7fbf8268-dc38-46b2-bc50-9a7fc68242c7" />
+
 
 **Total Unsold Inventory Capital:** $2.71M  
 
@@ -93,7 +97,8 @@ Identifying vendors with low inventory turnover allows the business to improve s
 
 ### 📊 5. Profit Margin Comparison: High vs. Low-Performing Vendors
 
-![alt text](image.png)
+<img width="975" height="529" alt="image" src="https://github.com/user-attachments/assets/eb6c0caf-31b1-492f-a985-0afbdc465d9b" />
+
 
 **Top Vendors’ Profit Margin (95% CI):** 30.74% – 31.61%  
 **Mean:** 31.17%  
