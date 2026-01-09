@@ -16,6 +16,9 @@ This project uses vendor data, which includes 12 million records as a representa
 
 ## 🧠 Executive Summary
 
+<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/7c2e821a-3559-4d26-91e2-5c663fda29c3" />
+
+
 The business is efficient in purchasing, achieving up to **72% per-unit cost savings** through bulk orders and sourcing **65.69% of total purchases from its top 10 vendors**, indicating strong scale advantages.
 
 **Key risks / constraints**
@@ -85,8 +88,7 @@ Bulk pricing strategies incentivize larger order volumes, which increase total s
 
 ### 🏷️ 4. Identifying Vendors with Low Inventory Turnover
 
-<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/7c2e821a-3559-4d26-91e2-5c663fda29c3" />
-
+<img width="897" height="755" alt="image" src="https://github.com/user-attachments/assets/29d29069-f529-46d3-a15f-b61d5e41edce" />
 
 
 **Total Unsold Inventory Capital:** $2.71M  
