@@ -85,7 +85,8 @@ Bulk pricing strategies incentivize larger order volumes, which increase total s
 
 ### 🏷️ 4. Identifying Vendors with Low Inventory Turnover
 
-<img width="777" height="570" alt="image" src="https://github.com/user-attachments/assets/7fbf8268-dc38-46b2-bc50-9a7fc68242c7" />
+<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/7c2e821a-3559-4d26-91e2-5c663fda29c3" />
+
 
 
 **Total Unsold Inventory Capital:** $2.71M  
