@@ -16,8 +16,6 @@ This project uses vendor data, which includes 12 million records as a representa
 
 ## 🧠 Executive Summary
 
-<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/7c2e821a-3559-4d26-91e2-5c663fda29c3" />
-
 
 The business is efficient in purchasing, achieving up to **72% per-unit cost savings** through bulk orders and sourcing **65.69% of total purchases from its top 10 vendors**, indicating strong scale advantages.
 
@@ -44,6 +42,14 @@ The business is efficient in purchasing, achieving up to **72% per-unit cost sav
 ## 🔎 Insights Deep-Dive
 
 Exploratory data analysis insights:
+
+### Reliance on Top Vendors — Brief Summary
+
+<img width="700" height="600" alt="image" src="https://github.com/user-attachments/assets/352df90f-2534-4f00-8b44-eee706bcb734" />
+
+
+The Pareto analysis shows a **high concentration of purchasing among a small group of vendors**. The largest vendor alone accounts for approximately **16.3% of total purchases**, while the **top 10 vendors collectively contribute around 65–70%** of overall purchasing volume. This heavy reliance enables strong **bulk-purchasing cost efficiencies**, but it also introduces **supplier concentration risk**, increasing exposure to potential supply disruptions, pricing power imbalances, and dependency on a limited vendor base.
+
 
 ### ⚠️ Negative & Zero Values
 
@@ -88,7 +94,8 @@ Bulk pricing strategies incentivize larger order volumes, which increase total s
 
 ### 🏷️ 4. Identifying Vendors with Low Inventory Turnover
 
-<img width="897" height="755" alt="image" src="https://github.com/user-attachments/assets/29d29069-f529-46d3-a15f-b61d5e41edce" />
+<img width="625" height="531" alt="image" src="https://github.com/user-attachments/assets/054a3741-6dea-46c4-ab1b-375be53c0476" />
+
 
 
 **Total Unsold Inventory Capital:** $2.71M  
@@ -108,6 +115,9 @@ Identifying vendors with low inventory turnover allows the business to improve s
 **Mean:** 41.55%  
 
 Low-performing vendors achieve higher profit margins but struggle with lower sales volumes, indicating potential pricing inefficiencies, limited market reach, or underutilized demand.
+
+<img width="897" height="755" alt="image" src="https://github.com/user-attachments/assets/83073910-e81f-47c1-b177-667fd170c01c" />
+
 
 ### 🧪 6. Statistical Validation of Profit Margin Differences
 
