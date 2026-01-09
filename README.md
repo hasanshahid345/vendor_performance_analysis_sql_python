@@ -75,8 +75,6 @@ Stock turnover ranges from 0 to 274.5, indicating that while some products sell 
 
 Around 40 brands exhibit lower sales but higher profit margins, indicating strong profitability potential. These brands could benefit from targeted marketing, selective promotions, or price optimization strategies to increase sales volume without compromising overall profitability.
 
-*Note: The Executive Summary references 40 low-volume, high-margin brands, while this section references around 40 brands; this may reflect a filtered subset used for promotional targeting.*
-
 ### 📦 3. Impact of Bulk Purchasing on Cost Savings
 
 <img width="666" height="220" alt="image" src="https://github.com/user-attachments/assets/8c3129be-e4d1-4659-b7e7-454a68d8b560" />
