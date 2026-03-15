@@ -2,12 +2,11 @@
 
 ## 🧩 Project Background 
 
-Effective inventory and sales management are critical for optimizing profitability in the retail and wholesale industry. This project evaluates vendor performance and retail inventory dynamics to drive strategic insights for purchasing, pricing, and inventory optimization. The project objective aims to:
+Effective inventory and sales management are critical for optimizing profitability in the retail and wholesale industry. This project evaluates vendor performance and implements an end-to-end machine learning system to support finance teams by:
 
+- Predicting expected freight cost for vendor invoices
 - Identify underperforming/overperforming vendors that require pricing or promotional adjustments  
 - Determine top vendors contribution to sales and profits  
-- Analyze the impact of bulk purchasing  
-- Investigating inventory turnover inefficiencies  
 - Statistically validate differences in vendor profitability  
 
 This project uses vendor data, which includes 12 million records as a representative sample. The analysis demonstrates a systematic, data-driven methodology to uncover utilization management gaps and identify potential savings. 
@@ -117,6 +116,45 @@ The null hypothesis is rejected, confirming that the two vendor groups operate u
 High-margin vendors may benefit from improved pricing or demand expansion strategies, while top-selling vendors should focus on cost efficiency and scale optimization to enhance margins.
 
 ---
+## 1. Freight Cost Prediction (Regression)
+
+**Objective:**  
+Predict the expected freight cost for a vendor invoice using quantity, invoice value, and historical behavior.
+
+### Why it matters
+
+- Freight is a non-trivial component of landed cost.
+- Poor freight estimation impacts margin analysis and budgeting.
+- Early prediction improves procurement planning and vendor negotiation.
+
+---
+
+# 🤖 Models Used
+
+## Regression (Freight Prediction)
+
+- Linear Regression *(baseline)*
+- Decision Tree Regressor
+- Random Forest Regressor *(final model)*
+
+## Classification (Invoice Flagging)
+
+- Logistic Regression *(baseline)*
+- Decision Tree Classifier
+- Random Forest Classifier *(final model with GridSearchCV)*
+
+Hyperparameter tuning is performed using **GridSearchCV with F1-score** to handle class imbalance.
+
+---
+
+# 📊 Evaluation Metrics
+
+## Freight Prediction
+
+- MAE (Mean Absolute Error)
+- RMSE (Root Mean Squared Error)
+- R² Score
+
 
 ## ✅ Recommendations
 
