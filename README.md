@@ -32,7 +32,7 @@ The business is efficient in purchasing, achieving up to **72% per-unit cost sav
 
 ## 🗂️ Data Structure
 
-![alt text](image-4.png)
+
 
 ---
 
