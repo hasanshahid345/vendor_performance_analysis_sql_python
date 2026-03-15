@@ -68,7 +68,8 @@ Stock turnover ranges from 0 to 274.5, indicating that while some products sell 
 
 ### 🧾 1. Brands for Promotional or Pricing Adjustments
 
-![alt text](image-3.png)
+
+
 
 Around 40 brands exhibit lower sales but higher profit margins, indicating strong profitability potential. These brands could benefit from targeted marketing, selective promotions, or price optimization strategies to increase sales volume without compromising overall profitability.
 
@@ -76,14 +77,13 @@ Around 40 brands exhibit lower sales but higher profit margins, indicating stron
 
 ### 📦 3. Impact of Bulk Purchasing on Cost Savings
 
-![alt text](image-2.png)
+
 
 Vendors purchasing in large quantities achieve up to 72% lower unit costs ($10.78 per unit compared to significantly higher unit costs for smaller orders).  
 Bulk pricing strategies incentivize larger order volumes, which increase total sales while preserving overall profitability.
 
 ### 🏷️ 4. Identifying Vendors with Low Inventory Turnover
 
-![alt text](image-1.png)
 
 **Total Unsold Inventory Capital:** $2.71M  
 
@@ -91,8 +91,6 @@ Slow-moving inventory increases storage and holding costs, reduces cash-flow eff
 Identifying vendors with low inventory turnover allows the business to improve stock management, optimize purchasing decisions, and minimize financial strain caused by excess inventory.
 
 ### 📊 5. Profit Margin Comparison: High vs. Low-Performing Vendors
-
-![alt text](image.png)
 
 **Top Vendors’ Profit Margin (95% CI):** 30.74% – 31.61%  
 **Mean:** 31.17%  
@@ -136,12 +134,6 @@ Predict the expected freight cost for a vendor invoice using quantity, invoice v
 - Linear Regression *(baseline)*
 - Decision Tree Regressor
 - Random Forest Regressor *(final model)*
-
-## Classification (Invoice Flagging)
-
-- Logistic Regression *(baseline)*
-- Decision Tree Classifier
-- Random Forest Classifier *(final model with GridSearchCV)*
 
 Hyperparameter tuning is performed using **GridSearchCV with F1-score** to handle class imbalance.
 
