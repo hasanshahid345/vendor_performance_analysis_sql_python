@@ -1,180 +1,128 @@
-# 📊 Vendor Performance Analysis
+# 📊 Vendor Performance analysis
 
-## 🧩 Project Background
+## 🧩 Project Background 
 
-Effective inventory and sales management are critical for optimizing profitability in the retail and wholesale industry. This project evaluates vendor performance and implements an end-to-end data analysis and machine learning workflow designed to support finance and procurement teams by:
+Effective inventory and sales management are critical for optimizing profitability in the retail and wholesale industry. This project evaluates vendor performance and retail inventory dynamics to drive strategic insights for purchasing, pricing, and inventory optimization. The project objective aims to:
 
-- Predicting expected freight costs for vendor invoices  
-- Identifying underperforming and overperforming vendors that require pricing or promotional adjustments  
-- Statistically validating differences in vendor profitability  
+- Identify underperforming/overperforming vendors that require pricing or promotional adjustments  
+- Determine top vendors contribution to sales and profits  
+- Analyze the impact of bulk purchasing  
+- Investigating inventory turnover inefficiencies  
+- Statistically validate differences in vendor profitability  
 
-The project uses vendor data containing **12 million records** as a representative sample. The analysis demonstrates a systematic, data-driven methodology to uncover utilization management gaps and identify potential savings.
+This project uses vendor data, which includes 12 million records as a representative sample. The analysis demonstrates a systematic, data-driven methodology to uncover utilization management gaps and identify potential savings. 
 
 ---
 
-# 🧠 Executive Summary
+## 🧠 Executive Summary
 
-The business demonstrates strong purchasing efficiency, achieving up to **72% per-unit cost savings** through bulk orders and sourcing **65.69% of total purchases from its top 10 vendors**, indicating strong scale advantages.
+The business is efficient in purchasing, achieving up to **72% per-unit cost savings** through bulk orders and sourcing **65.69% of total purchases from its top 10 vendors**, indicating strong scale advantages.
 
-## Key Risks & Constraints
+**Key risks / constraints**
+- It faces inventory inefficiencies, with approximately **$2.71 million in unsold stock** tying up working capital.
+- It also faces **supplier concentration risk** due to heavy reliance on a small vendor base.
 
-- Approximately **$2.71 million in unsold inventory** is tying up working capital.
-- There is **supplier concentration risk**, as the business relies heavily on a small group of vendors.
+**Profitability opportunity**
+- There is untapped profit potential in **40 low-volume, high-margin brands** and lower-volume vendors averaging **41.55% profit margins**, compared to **31.17% for high-volume vendors**, suggesting opportunities to improve overall profitability through better brand and vendor mix optimization.
 
-## Profitability Opportunity
-
-There is untapped profit potential in **40 low-volume, high-margin brands** and lower-volume vendors averaging **41.55% profit margins**, compared to **31.17% for high-volume vendors**. This suggests opportunities to improve overall profitability through better brand and vendor mix optimization.
-
-## Executive Recommendations
-
+**Main recommendations (executive-level)**
 - **Diversify vendor partnerships** to reduce dependency on a limited number of suppliers and mitigate supply chain risks.
-- **Optimize slow-moving inventory** by adjusting purchase quantities and implementing clearance initiatives to free up working capital.
+- **Optimize slow-moving inventory** by adjusting purchase quantities and using clearance initiatives to free up working capital.
 
 ---
 
-# 🗂️ Data Structure
+## 🗂️ Data Structure
 
-![Data Structure](image-4.png)
-
----
-
-# 🔎 Exploratory Data Analysis Insights
-
-## ⚠️ Negative & Zero Values
-
-### Gross Profit
-The minimum gross profit observed is **–52,002.78**, indicating potential losses driven by high costs or heavy discounting. Some products may have been sold below their purchase cost.
-
-### Profit Margin
-Profit margins reach **–∞**, indicating cases where revenue is zero or lower than total costs.
-
-### Sales Quantity & Sales Dollars
-Some products record **zero sales quantity and zero revenue**, indicating purchased items that were never sold. This contributes to slow-moving or obsolete inventory.
+![alt text](image-4.png)
 
 ---
 
-## 📌 Outliers Detected by High Standard Deviations
+## 🔎 Insights Deep-Dive
 
-### Purchase & Actual Prices
-Maximum prices (**5,681.81 purchase price** and **7,499.99 actual price**) are far above their respective means (**24.39** and **35.64**), indicating premium product segments.
+Exploratory data analysis insights:
 
-### Freight Cost
-Freight costs vary dramatically (**0.09 – 257,032.07**), suggesting possible logistics inefficiencies or irregular shipment allocations.
+### ⚠️ Negative & Zero Values
 
-### Stock Turnover
-Stock turnover ranges from **0 to 274.5**, indicating that while some products sell rapidly, others remain unsold for long periods.
+**Gross Profit:**  
+The minimum gross profit observed is –52,002.78, indicating potential losses driven by high costs or heavy discounting. This suggests that some products may have been sold at prices below their purchase cost.
 
----
+**Profit Margin:**  
+The profit margin reaches a minimum of –∞, which indicates cases where revenue is zero or lower than total costs, resulting in extremely negative margins.
 
-# 📈 Research Questions & Key Findings
+**Total Sales Quantity & Sales Dollars:**  
+Some products record zero sales quantity and zero sales revenue, indicating that these items were purchased but never sold. This points to slow-moving or obsolete inventory, contributing to overall inventory inefficiencies.
 
-## 🧾 1. Brands for Promotional or Pricing Adjustments
+### 📌 Outliers Detected by High Standard Deviations
 
-![Brand Analysis](image-3.png)
+**Purchase & Actual Prices:**  
+The maximum observed prices (5,681.81 for purchase price and 7,499.99 for actual price) are significantly higher than their respective means (24.39 and 35.64). This large gap indicates the presence of premium or high-value product offerings, which contribute to high variability in pricing.
 
-Approximately **40 brands** exhibit lower sales but higher profit margins. These brands present opportunities for targeted marketing or selective promotions to increase sales while maintaining strong profitability.
+**Freight Cost:**  
+Freight costs exhibit extreme variation, ranging from 0.09 to 257,032.07, suggesting potential logistics inefficiencies, inconsistent shipment sizes, or irregular freight allocation across different products.
 
----
-
-## 📦 2. Impact of Bulk Purchasing on Cost Savings
-
-![Bulk Purchasing](image-2.png)
-
-Vendors purchasing in large quantities achieve up to **72% lower unit costs** ($10.78 per unit compared to significantly higher costs for smaller orders).
-
-Bulk pricing strategies incentivize larger order volumes while preserving profitability.
+**Stock Turnover:**  
+Stock turnover ranges from 0 to 274.5, indicating that while some products sell very rapidly, others remain unsold for extended periods. Turnover values greater than 1 imply that sales exceeded the quantity purchased during the period, likely due to existing inventory being used to fulfill orders.
 
 ---
 
-## 🏷️ 3. Identifying Vendors with Low Inventory Turnover
+## 📈 Research Questions & Key Findings
 
-![Inventory Turnover](image-1.png)
+### 🧾 1. Brands for Promotional or Pricing Adjustments
 
-**Total Unsold Inventory Capital:** $2.71M
+![alt text](image-3.png)
 
-Slow-moving inventory increases holding costs, reduces cash-flow efficiency, and negatively impacts profitability.
+Around 40 brands exhibit lower sales but higher profit margins, indicating strong profitability potential. These brands could benefit from targeted marketing, selective promotions, or price optimization strategies to increase sales volume without compromising overall profitability.
 
-Identifying vendors with low turnover helps improve purchasing decisions and inventory management.
+*Note: The Executive Summary references 40 low-volume, high-margin brands, while this section references around 40 brands; this may reflect a filtered subset used for promotional targeting.*
 
----
+### 📦 3. Impact of Bulk Purchasing on Cost Savings
 
-## 📊 4. Profit Margin Comparison: High vs Low Performing Vendors
+![alt text](image-2.png)
 
-![Profit Margin Comparison](image.png)
+Vendors purchasing in large quantities achieve up to 72% lower unit costs ($10.78 per unit compared to significantly higher unit costs for smaller orders).  
+Bulk pricing strategies incentivize larger order volumes, which increase total sales while preserving overall profitability.
 
-| Vendor Type | Profit Margin (95% CI) | Mean |
-|--------------|-----------------------|------|
-| Top Vendors | 30.74% – 31.61% | 31.17% |
-| Low-Performing Vendors | 40.48% – 42.62% | 41.55% |
+### 🏷️ 4. Identifying Vendors with Low Inventory Turnover
 
-Low-performing vendors achieve higher margins but struggle with lower sales volumes, suggesting underutilized demand or pricing inefficiencies.
+![alt text](image-1.png)
 
----
+**Total Unsold Inventory Capital:** $2.71M  
 
-## 🧪 5. Statistical Validation of Profit Margin Differences
+Slow-moving inventory increases storage and holding costs, reduces cash-flow efficiency, and negatively impacts overall profitability.  
+Identifying vendors with low inventory turnover allows the business to improve stock management, optimize purchasing decisions, and minimize financial strain caused by excess inventory.
 
-**Hypothesis Testing**
+### 📊 5. Profit Margin Comparison: High vs. Low-Performing Vendors
 
-- **H₀:** No significant difference in profit margins between vendor groups  
-- **H₁:** Significant difference exists between vendor groups  
+![alt text](image.png)
+
+**Top Vendors’ Profit Margin (95% CI):** 30.74% – 31.61%  
+**Mean:** 31.17%  
+
+**Low-Performing Vendors’ Profit Margin (95% CI):** 40.48% – 42.62%  
+**Mean:** 41.55%  
+
+Low-performing vendors achieve higher profit margins but struggle with lower sales volumes, indicating potential pricing inefficiencies, limited market reach, or underutilized demand.
+
+### 🧪 6. Statistical Validation of Profit Margin Differences
+
+
+**Hypothesis Testing:**  
+- H₀ (Null Hypothesis): There is no significant difference in profit margins between top-performing and low-performing vendors.  
+- H₁ (Alternative Hypothesis): A significant difference exists in profit margins between the two vendor groups.  
 
 **Result:**  
-The null hypothesis is rejected.
+The null hypothesis is rejected, confirming that the two vendor groups operate under distinctly different profitability models.
 
 **Implication:**  
-Different vendor groups operate under distinct profitability models.
-
-High-margin vendors may benefit from demand expansion strategies, while high-volume vendors should focus on cost efficiency and scale optimization.
+High-margin vendors may benefit from improved pricing or demand expansion strategies, while top-selling vendors should focus on cost efficiency and scale optimization to enhance margins.
 
 ---
 
-# 🎯 Machine Learning Objective
+## ✅ Recommendations
 
-## Freight Cost Prediction (Regression)
-
-**Goal:**  
-Predict the expected freight cost for vendor invoices using invoice quantity, invoice value, and historical transaction patterns.
-
-### Business Importance
-
-- Freight is a major component of landed cost
-- Accurate freight prediction improves budgeting
-- Enables better procurement planning and vendor negotiations
-
----
-
-# 🤖 Models Used
-
-## Regression Models
-
-- Linear Regression *(baseline)*
-- Decision Tree Regressor
-- Random Forest Regressor *(final model)*
-
-## Classification Models (Invoice Flagging)
-
-- Logistic Regression *(baseline)*
-- Decision Tree Classifier
-- Random Forest Classifier *(final model tuned with GridSearchCV)*
-
-Hyperparameter tuning uses **GridSearchCV with F1-score** to address class imbalance.
-
----
-
-# 📊 Evaluation Metrics
-
-## Freight Prediction
-
-- **MAE** – Mean Absolute Error  
-- **RMSE** – Root Mean Squared Error  
-- **R² Score**
-
----
-
-# ⚙️ How to Run This Project
-
-## 1. Clone Repository
-
-```bash
-git clone https://github.com/hasanshahid345/vendor_performance_analysis_sql_python.git
-cd vendor_performance_analysis_sql_python
+- Re-evaluate pricing strategies for low-sales, high-margin brands to increase sales volume without sacrificing profitability.
+- Diversify vendor partnerships to reduce dependency on a limited number of suppliers and mitigate supply chain risks.
+- Leverage bulk purchasing advantages to maintain competitive pricing while optimizing inventory levels.
+- Optimize slow-moving inventory by adjusting purchase quantities, launching clearance initiatives, or revising storage and fulfillment strategies.
+- Enhance marketing and distribution strategies for low-performing vendors to increase sales volumes without eroding profit margins.
+- By implementing these recommendations, the company can achieve sustainable profitability, reduce operational risk, and improve overall operational efficiency.
