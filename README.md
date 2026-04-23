@@ -22,6 +22,7 @@ The business is efficient in purchasing, achieving up to **72% per-unit cost sav
 - It also faces **supplier concentration risk** due to heavy reliance on a small vendor base.
 
 **Profitability opportunity**
+
 - There is untapped profit potential in **40 low-volume, high-margin brands** and lower-volume vendors averaging **41.55% profit margins**, compared to **31.17% for high-volume vendors**, suggesting opportunities to improve overall profitability through better brand and vendor mix optimization.
 
 **Main recommendations (executive-level)**
@@ -39,6 +40,8 @@ The business is efficient in purchasing, achieving up to **72% per-unit cost sav
 ## 🔎 Insights Deep-Dive
 
 Exploratory data analysis insights:
+<img width="1057" height="805" alt="image" src="https://github.com/user-attachments/assets/0b7a8625-7a88-40a4-a92e-bd750ad4cd15" />
+
 
 ### ⚠️ Negative & Zero Values
 
@@ -47,6 +50,8 @@ The minimum gross profit observed is –52,002.78, indicating potential losses d
 
 **Profit Margin:**  
 The profit margin reaches a minimum of –∞, which indicates cases where revenue is zero or lower than total costs, resulting in extremely negative margins.
+
+<img width="804" height="496" alt="image" src="https://github.com/user-attachments/assets/238cbf6e-a6db-4293-9c33-86a532ab379e" />
 
 **Total Sales Quantity & Sales Dollars:**  
 Some products record zero sales quantity and zero sales revenue, indicating that these items were purchased but never sold. This points to slow-moving or obsolete inventory, contributing to overall inventory inefficiencies.
@@ -69,6 +74,7 @@ Stock turnover ranges from 0 to 274.5, indicating that while some products sell 
 ### 🧾 1. Brands for Promotional or Pricing Adjustments
 
 
+<img width="790" height="491" alt="image" src="https://github.com/user-attachments/assets/9e01749e-67e5-41cf-9220-ec363b76142b" />
 
 
 Around 40 brands exhibit lower sales but higher profit margins, indicating strong profitability potential. These brands could benefit from targeted marketing, selective promotions, or price optimization strategies to increase sales volume without compromising overall profitability.
@@ -78,11 +84,14 @@ Around 40 brands exhibit lower sales but higher profit margins, indicating stron
 ### 📦 3. Impact of Bulk Purchasing on Cost Savings
 
 
+<img width="352" height="98" alt="image" src="https://github.com/user-attachments/assets/4d491804-f3b6-49be-a273-611de556b47c" />
+
 
 Vendors purchasing in large quantities achieve up to 72% lower unit costs ($10.78 per unit compared to significantly higher unit costs for smaller orders).  
 Bulk pricing strategies incentivize larger order volumes, which increase total sales while preserving overall profitability.
 
 ### 🏷️ 4. Identifying Vendors with Low Inventory Turnover
+<img width="393" height="339" alt="image" src="https://github.com/user-attachments/assets/25afe457-653a-4ac5-b772-ded8bda77fd2" />
 
 
 **Total Unsold Inventory Capital:** $2.71M  
@@ -91,6 +100,8 @@ Slow-moving inventory increases storage and holding costs, reduces cash-flow eff
 Identifying vendors with low inventory turnover allows the business to improve stock management, optimize purchasing decisions, and minimize financial strain caused by excess inventory.
 
 ### 📊 5. Profit Margin Comparison: High vs. Low-Performing Vendors
+
+<img width="791" height="429" alt="image" src="https://github.com/user-attachments/assets/420b3ff5-42e1-401c-8676-9448fe35d177" />
 
 **Top Vendors’ Profit Margin (95% CI):** 30.74% – 31.61%  
 **Mean:** 31.17%  
@@ -101,6 +112,8 @@ Identifying vendors with low inventory turnover allows the business to improve s
 Low-performing vendors achieve higher profit margins but struggle with lower sales volumes, indicating potential pricing inefficiencies, limited market reach, or underutilized demand.
 
 ### 🧪 6. Statistical Validation of Profit Margin Differences
+
+<img width="804" height="589" alt="image" src="https://github.com/user-attachments/assets/a463278b-f73e-4724-b3a8-744897fc024c" />
 
 
 **Hypothesis Testing:**  
