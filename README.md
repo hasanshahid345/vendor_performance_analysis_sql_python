@@ -39,19 +39,12 @@ The business is efficient in purchasing, achieving up to **72% per-unit cost sav
 
 ## 🔎 Insights Deep-Dive
 
-Exploratory data analysis insights:
-<img width="1057" height="805" alt="image" src="https://github.com/user-attachments/assets/0b7a8625-7a88-40a4-a92e-bd750ad4cd15" />
-
-
-### ⚠️ Negative & Zero Values
-
+###Exploratory data analysis insights
 **Gross Profit:**  
 The minimum gross profit observed is –52,002.78, indicating potential losses driven by high costs or heavy discounting. This suggests that some products may have been sold at prices below their purchase cost.
 
 **Profit Margin:**  
 The profit margin reaches a minimum of –∞, which indicates cases where revenue is zero or lower than total costs, resulting in extremely negative margins.
-
-<img width="804" height="496" alt="image" src="https://github.com/user-attachments/assets/238cbf6e-a6db-4293-9c33-86a532ab379e" />
 
 **Total Sales Quantity & Sales Dollars:**  
 Some products record zero sales quantity and zero sales revenue, indicating that these items were purchased but never sold. This points to slow-moving or obsolete inventory, contributing to overall inventory inefficiencies.
