@@ -37,9 +37,8 @@ The business is efficient in purchasing, achieving up to **72% per-unit cost sav
 
 ---
 
-## 🔎 Insights Deep-Dive
+## 🔎 EDA Insights Deep-Dive
 
-**Exploratory data analysis insights**
 **Gross Profit:**  
 The minimum gross profit observed is –52,002.78, indicating potential losses driven by high costs or heavy discounting. This suggests that some products may have been sold at prices below their purchase cost.
 
