@@ -31,12 +31,6 @@ The business is efficient in purchasing, achieving up to **72% per-unit cost sav
 
 ---
 
-## 🗂️ Data Structure
-
-
-
----
-
 ## 🔎 EDA Insights Deep-Dive
 
 **Gross Profit:**  
